@@ -29,7 +29,7 @@
     
     É importante aqui você conferir se o repositório base é o da reprograma, na branch com seu nome. Vai ficar algo assim no cabeçalho do PR:
 
-    `base repository: reprograma/on6-xp-s2-logica-js   base: nome-sobrenome(sua branch)   <------   head repository: SeuRepo/on6-xp-s2-logica-js   compare: nome-sobrenome(sua branch)`
+    `base repository: reprograma/on6-xp-s3-logica-js   base: nome-sobrenome(sua branch)   <------   head repository: SeuRepo/on6-xp-s3-logica-js   compare: nome-sobrenome(sua branch)`
   >Nota: é importante garantir isso pra que seu código vá para uma branch separada e não entre em conflito com os códigos das suas colegas
 9. Preencha as informações do PR e confirme o envio clicando no botão Create pull request. Não precisa dar merge!
 Agora o seu exercício já foi entregue.
