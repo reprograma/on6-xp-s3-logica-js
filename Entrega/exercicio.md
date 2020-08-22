@@ -1,8 +1,6 @@
 # Exercícios da Semana
 > Você pode dar os nomes que quiser para as funções e variáveis, apenas lembre que eles devem ser semânticos :)
 
->Utilize funções
-
 1. Crie uma função que receba uma temperatura em Celsius e chame uma função que converta para Fahrenheit. F = 9*C/5 + 32
 
 2. Agora faça o contrário, uma função que receba uma temperatura em Fahrenheit e chame uma função que converta para Celsius.

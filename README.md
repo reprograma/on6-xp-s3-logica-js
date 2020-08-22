@@ -14,7 +14,6 @@
 1. **[Switch](#switch)**
 2. **[Funções](#funções)**
 3. **[Laços](#laços)**
-4. **[Arrays](#arrays)**
 
 ----
 
@@ -210,16 +209,4 @@ for (passo = 1; passo <= 5; passo++) {
 // já dei 3 passos
 // já dei 4 passos
 // já dei 5 passos
-```
-
-### Arrays
-
-Em Js o Array é um objeto, um objeto especial com características próprias mas não existe o nativo. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. É uma estrutura dinâmica que cresce dinamicamente e diminui dinamicamente diferente de outras linguagens na qual tem uma estrutura estática e tamanho fixo. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
-
-#### Acessando os item do array
-
-```javascript
-var arr = ['primeiro, 'segundo'];
-console.log(arr[0]);// exibr 'primeiro'
-console.log(arr[1]);// exibe 'segundo'
 ```
