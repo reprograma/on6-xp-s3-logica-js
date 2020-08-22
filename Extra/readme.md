@@ -24,16 +24,21 @@ Crie uma função que receba um número e imprima no console de 0 até o número
 
 Crie uma função que receba um número inteiro e imprima os números no console de 1 ao número. Porém, para todos os números que forem múltiplos de 3, imprima na tela "banana" ao invés do número; para os números múltiplos de 5, imprima "biscoito". Para números múltiplos de 3 e 5, imprima "biscoito de banana". Exemplo, recebendo 15 o resultado será 1 2 banana 4 biscoito banana 7 8 banana biscoito 11 banana 13 14 biscoito de banana
 
-FIO EXTRA: refaça o exercício acima, porém agora com o seguinte padrão:
-    *
-   **
-  ***
- ****
-*****
 
+crie uma função que receba um número qualquer devolva o seguinte padrão como resultado (inclusive com os espaços). Por exemplo, caso receba o número 5 como parâmetro:
+```
+*
+**
+***
+****
+*****
+******
+```
 DESAFIO EXTRA: refaça o exercício acima, porém agora com o seguinte padrão:
+```
     *
    **
   ***
  ****
 *****
+```
