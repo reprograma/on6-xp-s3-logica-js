@@ -3,7 +3,7 @@
   <img src="assets/web-development.png" alt="Front-End Checklist" width="170">
   <br>
     <br>
-        Semana 2
+        Semana 3
   <br>
 </h1>
 <p align="center">Resolução de Problemas/Lógica aplicada e JavaScript<p>
@@ -11,18 +11,15 @@
 
 ## Sumário
 
-1. **[Ambiente](#ambiente)**
-2. **[Lógica](#lógica)**
-3. **[Variáveis](#variáveis)**
-4. **[Dados](#dados)**
-5. **[Operadores](#operadores)**
-6. **[Condicionais](#condicionais)**
-7. **[Extra](#extra)**
+1. **[Switch](#switch)**
+2. **[Funções](#funções)**
+3. **[Laços](#laços)**
+4. **[Arrays](#arrays)**
 
 ----
 
 
-### Estrutura switch case
+### Switch
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
 
 ```javascript
@@ -55,7 +52,7 @@ switch ( dia ) {
 }
 ```
 
-### Importância do break (switch case)
+###$ Importância do break (switch case)
 A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada  e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch. 
 
 Se você esquecer um break então o script irá rodar a partir do caso onde o critério foi correspondido e irá rodar também o caso seguinte independentemente do critério ter sido correspondido ou não:
@@ -84,7 +81,7 @@ switch ( dia ) {
 }
 ```
 
-## Funções e parâmetros
+### Funções
 
 Uma função JavaScript é definida com a palavra-chave `function`, seguida por um **nome**(opcional), seguido por parênteses **()**.
 
@@ -147,7 +144,7 @@ function operacaoMatematica(numero1, numero2, numero3) {
 operacaoMatematica(1, 1, 1)
 ```
 
-### Return x Console
+#### Return x Console
 
 Qual a diferença entre `return` e `console.log()`?
 
@@ -156,11 +153,11 @@ O `console.log` significa, traduzindo do inglês, "registro no console". Ou seja
 Já o `return` é o comando que usamos quando realmente precisamos que a função "mande pra fora dela" algum dado que precisamos usar em outra parte do código. Ele deve ser sempre a última coisa a ser escrita na última linha antes de fechar a função, pois tudo que vem depois desse comando é ignorado pelo JS.
 
 
-## Estruturas de repetição ou laços de repetição
+### Laços
 
 São comandos que mantém um código sendo executado até que uma condição de parada seja satisfeita.
 
-### while
+#### while
 
 Uma declaração while executa suas instruções, desde que uma condição especificada seja avaliada como verdadeira.
 
@@ -183,7 +180,7 @@ while (num > 9 || num <= 1) { //Enquanto a condição for satisfeita, ele entra 
 }
 ```
 
-### do-while
+#### do-while
 
 A instrução do-while repetirá até que a condição especificada seja falsa. O corpo é sempre executado pelo menos uma vez, independente da condição, pois primeiro ele faz do e depois testa a condição.
 
@@ -197,10 +194,9 @@ do{
 }while(num > 9 || num <= 1)
 ```
 
-> Execício:
-> Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+*Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.*
 
-### for
+#### for
 Você pode pensar em um laço de repetição como um jogo onde você manda o seu personagem andar X passos.
 
 ```javascript
@@ -216,6 +212,14 @@ for (passo = 1; passo <= 5; passo++) {
 // já dei 5 passos
 ```
 
-## Arrays
+### Arrays
 
 Em Js o Array é um objeto, um objeto especial com características próprias mas não existe o nativo. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. É uma estrutura dinâmica que cresce dinamicamente e diminui dinamicamente diferente de outras linguagens na qual tem uma estrutura estática e tamanho fixo. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
+
+#### Acessando os item do array
+
+```javascript
+var arr = ['primeiro, 'segundo'];
+console.log(arr[0]);// exibr 'primeiro'
+console.log(arr[1]);// exibe 'segundo'
+```
