@@ -52,7 +52,7 @@ switch ( dia ) {
 }
 ```
 
-###$ Importância do break (switch case)
+#### Importância do break (switch case)
 A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada  e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch. 
 
 Se você esquecer um break então o script irá rodar a partir do caso onde o critério foi correspondido e irá rodar também o caso seguinte independentemente do critério ter sido correspondido ou não:
